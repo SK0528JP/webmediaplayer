@@ -8,15 +8,20 @@
 </head>
 <body>
     <h1>WebMediaPlayer</h1>
-    <h2>By SK0528JP</h2>
+    <h2>Made By SK0528JP</h2>
     <div id="player">
         <img id="coverImage" src="" alt="カバー画像" style="display: none;">
         <audio id="audioPlayer" controls>
             あなたのブラウザはaudioタグをサポートしていません。
         </audio>
     </div>
-    <div id="fileList">
-        <!-- 音声ファイルのリストがここに表示されます -->
+    <div id="fileListContainer">
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="曲名を検索">
+        </div>
+        <div id="fileList">
+            <!-- 音声ファイルのリストがここに表示されます -->
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
