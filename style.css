@@ -1,10 +1,10 @@
 @font-face {
     font-family: "zhcn";
-    src: url("/fonts/zhcn.ttf") format('ttf'),
-  }
+    src: url("/fonts/zhcn.ttf") format('ttf');
+}
 
 body {
-    font-family: "zhcn" ;
+    font-family: "zhcn";
     text-align: center;
     background-color: #121212;
     color: #ffffff;
@@ -59,6 +59,7 @@ h1 {
     max-width: 600px;
     background-color: #1e1e1e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
 }
 
 #searchContainer {
@@ -68,7 +69,7 @@ h1 {
 #searchInput {
     padding: 10px;
     width: 100%;
-    box-sizing: border-box; /* これを追加 */
+    box-sizing: border-box;
     border: none;
     border-radius: 16px;
     font-size: 16px;
