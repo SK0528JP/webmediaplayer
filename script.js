@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const audioFiles = [
         { file: 'audio/madeinabyss-oldstories.mp3', displayName: 'Made in Abyss - Old Stories' },
         { file: 'audio/madeinabyss-hanezevecaradhina.mp3', displayName: 'Made in Abyss - Hanezeve Caradhina' },
-        { file: 'audio/genshin-arlecchinobgm.mp3', displayName: 'Genshin Arlecchino Theme' },
-        { file: 'audio/genshin-partingoflightandshadow.mp3', displayName: 'Genshin Parting of light and Shadow 光と影の決別' },
-        { file: 'audio/genshin-raidenbgm.mp3', displayName: 'Genshin Raiden Theme' }
+        { file: 'audio/genshin-arlecchinobgm.mp3', displayName: 'Genshin - Arlecchino Theme' },
+        { file: 'audio/genshin-partingoflightandshadow.mp3', displayName: 'Genshin - Parting of light and Shadow 光と影の決別' },
+        { file: 'audio/genshin-raidenbgm.mp3', displayName: 'Genshin - Raiden Theme' }
     ];
 
     function displayFiles(files) {
