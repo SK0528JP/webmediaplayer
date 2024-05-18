@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#player {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#audioPlayer {
+    width: 80%;
+}
+
+#coverImage {
+    max-height: 300px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fileList {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-item {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.file-item:hover {
+    background-color: #e0e0e0;
+}
