@@ -1,10 +1,10 @@
 @font-face {
     font-family: "zhcn";
-    src: url("fonts/zhcn.ttf") format('ttf');
+    src: url("fonts/zhcn.ttf");
 }
 
 body {
-    font-family: "zhcn";
+    font-family: "zhcn", sans-serif;
     text-align: center;
     background-color: #121212;
     color: #ffffff;
@@ -13,6 +13,7 @@ body {
 h1 {
     margin-top: 20px;
     color: #ffffff;
+    border-bottom: 4px solid #007a75;
 }
 
 #player {
