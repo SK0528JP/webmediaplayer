@@ -13,7 +13,7 @@ body {
 h1 {
     margin-top: 20px;
     color: #ffffff;
-    border-bottom: 4px solid #007a75;
+    border-bottom: 4px solid #1e1e1e;
 }
 
 #player {
@@ -51,6 +51,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
+    filter: drop-shadow(8px 8px 8px #fff);
 }
 
 #fileListContainer {
